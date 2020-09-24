@@ -1,0 +1,85 @@
+---
+title: "Analysis"
+author: "Maxwel Coura Oliveira"
+date: "6/2/2019"
+output: pdf_document
+---
+
+
+```{r}
+library(tidyverse)
+library(randomForest)
+library(ggplot2)
+library(ggthemes)
+```
+
+
+
+```{r}
+data1 <- Data %>% 
+  filter(crop=="field corn") %>% 
+  filter(role=="Grower")  %>% 
+  filter(acresha <3000)
+
+p1<-ggplot(data1, aes(x=ccacresha , y=acresha)) + geom_smooth(method="lm", color="black", alpha=0.2, fill="grey10") + geom_point(color="red", pch=16) + theme_bw() +
+  labs(x=expression(bold("Total cover crop managed area per grower (ha) - "~italic("C"))), y=expression(bold("Total managed area per grower (ha) - "~italic("T")))) + 
+         xlim(0,999) + ylim(0,2200) +
+  annotate("text", x = 20, y = 2200, label = "n = 60", size=4) +
+  theme(axis.title = element_text(size=15, face="bold"), axis.text = element_text(size=14, color="black"), panel.grid = element_blank()) +
+  ggsave("area.png", height=6, width=6)
+```
+
+
+```{r}
+data1 <- Data %>% 
+  filter(crop=="field corn") %>% 
+  filter(role=="Grower") %>% 
+  filter(acresha <3000) 
+
+p2 <- ggplot(data1, aes(x=ccarea , y=acresha)) + geom_smooth(method="lm", color="black", alpha=0.2, fill="grey10") + geom_point(color="red", pch=16) + theme_bw() +
+  labs(x=expression(bold("Cover crop managed area per grower (%) - "~italic("Y"))), y=expression(bold("Total managed area per grower (ha) - "~italic("T")))) + 
+         xlim(0,100) + ylim(0,2200) +
+  annotate("text", x = 2, y = 2200, label = "n = 60", size=4) +
+  theme(axis.title = element_text(size=15, face="bold"), axis.text = element_text(size=14, color="black"), panel.grid = element_blank()) +
+  ggsave("area2.png", height=6, width=6)
+```
+
+```{r}
+library(gridExtra)
+library(cowplot)
+plot_grid(p1, p2, nrow = 1, labels = c("A", "B")) +
+  ggsave("hectares.pdf", height=6, width=13, dpi=600)
+```
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15 cm]{hectares.png}
+\caption{Correlation between the total growers' farm area and their respective cover crop planted area in ha (A) and % (B) in Nebraska. In figure A, correlation is 0.66 (lower confidence interval [CI] 0.49 - upper CI 0.78) with \textit{P}-value= 0.00. In figure B, correlation is -0.25 (lower CI 0.48 - upper CI 0.01) with \textit{P}-value= 0.05.}
+\end{figure}
+
+
+
+
+```{r}
+cor.test(data1$acresha, data1$ccacresha)
+cor.test(data1$acresha, data1$ccarea)
+```
+
+
+
+
+```{r}
+dat <- read_csv("data.csv") %>% 
+  drop_na() %>% 
+  filter(crop == "field corn") %>% 
+  select(ccspecies, plantingcctime, howccplanting, ccterminationtime, improveweedc, herbicidecc, soilresidual) 
+  zforest<- rfImpute(x=dat[,2:7], y=dat[,1], ntree=5000)
+test=randomForest(y=zforest[,1],x=zforest[,2:7],ntree=5000)
+varImpPlot(test,main="",n.var=7) 
+```
+
+dat=read.csv("database.csv",header=TRUE, na.strings = "") %>% 
+  select(pporesist, glyresistant, county, currentcrop, tillage, irrigation, populationdistribution, populationdensity, previouscrop)
+zforest<- rfImpute(x=dat[,2:9], y=dat[,1], ntree=5000)
+test=randomForest(y=zforest[,1],x=zforest[,2:9],ntree=5000)
+varImpPlot(test,main="",n.var=8) 

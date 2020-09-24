@@ -1,0 +1,42 @@
+---
+title: "Survey of Cover Crop Management in Nebraska"
+author: "Maxwel Coura Oliveira, Liberty Butts and Rodrigo Werle"
+date: "2/6/2019"
+output:
+  bibliography: bibcovercrop.bib
+fontsize: 12pt
+link-citations: yes
+---
+
+
+```{r}
+library(rticles)
+library(bookdown)
+```
+
+
+# 1. Introduction 
+
+
+Cover crops are becoming increasingly popular across Nebraska and the Midwest. 
+
+ The objective of the survey was to evaluate CC management strategies adopted by Nebraska soybean, field corn and seed corn growers and agronomists [@oliveira_additive_2018; @oliveira_reversing_2018] 
+
+
+# Material and Methods
+
+A paper copy survey was handle out during the 2017 Cover Crop Conference at the Eastern Nebraska Research and Extension Center, Ithaca, NE on February 14, 2017. The survey comprised eight sections (Table 1). Questions focused on the demographics information (Q1-4, Table 1A); questions on cover crop management during corn (Q5-7, Table 1B), seed corn (Q8-10, Table 1C), and soybean growing season (Q11-13, Table 1D); questions on cover crop management into a corn (Q14-15, Table 1E), seed corn (Q16-17, Table 1F), and soybean (Q18-19, Table 18-19) growing season; and general questions about cover crop management in Nebraska (Q20-24).
+Survey data were sorted, filter and analyzed usin the *sort*, *filter*, and *count* functions in Microsoft Excel. 
+
+
+
+# Results and Discussion
+
+## Demographics
+
+ Eight two individuals participated in the survey, 80% identified themselves as growers (66 respondents) and 9% as consultants, industry rep or agronomists (7 respondents. 
+
+
+
+
+# References

@@ -1,0 +1,96 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Untitled.aux
+The style file: mdpi.bst
+Database file #1: bibcovercrop.bib.bib
+Warning--entry type for "ctic_report_2017" isn't style-file defined
+--line 830 of file bibcovercrop.bib.bib
+Warning--I didn't find a database entry for "usda-nass_u.s._2019"
+Warning--empty journal in hiller_long-term_2009
+Warning--empty journal in wu_integrated_2015
+Warning--empty journal in mcdaniel_does_2014
+Warning--empty journal in knowler_farmers_2007
+Warning--empty journal in baumgart-getz_why_2012
+Warning--empty journal in duke_glyphosate:_2008
+Warning--empty journal in givens_survey_2009
+Warning--empty journal in bergtold_demographic_2012
+Warning--empty journal in sarrantonio_role_2003
+Warning--empty journal in dunn_perceptions_2016
+Warning--empty journal in blanco-canqui_cover_2015
+Warning--empty journal in bergtold_review_2017
+Warning--empty journal in kladivko_cover_2014
+Warning--empty journal in sarangi_statewide_2018
+Warning--empty journal in culpepper_glyphosate-induced_2006
+Warning--empty journal in werle_survey_2018-1
+Warning--empty journal in bish_survey_2017
+Warning--empty journal in werle_survey_2018
+Warning--empty journal in singer_are_2007
+Warning--empty journal in singer_corn_2008
+Warning--empty journal in noland_establishment_2018
+Warning--empty journal in youngerman_corn_2018
+Warning--empty journal in appelgate_cover_2017
+Warning--empty journal in hayden_ryevetch_2014
+Warning--empty journal in nascente_cover_2013
+Warning--empty journal in cornelius_herbicide_2017
+Warning--empty journal in marcillo_corn_2017
+Warning--empty journal in sainju_tillage_2001
+Warning--empty journal in mirsky_control_2009
+Warning--empty journal in wortman_optimizing_2012
+Warning--empty journal in bavougian_cover_2018
+Warning--empty journal in frasconi_combining_2019
+Warning--empty journal in palhano_evaluation_2018
+Warning--empty journal in norsworthy_reducing_2012
+Warning--empty journal in lu_cover_2000
+Warning--empty journal in blanco-canqui_summer_2012
+Warning--empty journal in osipitan_cover_2018
+Warning--empty journal in werle_cereal_2017
+Warning--empty journal in palhano_cover_2018
+Warning--empty journal in werle_predicting_2014
+Warning--empty journal in werle_environmental_2014
+Warning--empty journal in bakker_potential_2016
+Warning--empty journal in acharya_time_2017
+Warning--empty journal in cornelius_carryover_2017
+Warning--empty journal in plastina_perceived_2018
+Warning--empty journal in de_bruin_use_2005
+You've used 47 entries,
+            2795 wiz_defined-function locations,
+            776 strings with 13314 characters,
+and the built_in function-call counts, 18609 in all, are:
+= -- 1435
+> -- 1233
+< -- 17
++ -- 461
+- -- 366
+* -- 1739
+:= -- 3043
+add.period$ -- 138
+call.type$ -- 47
+change.case$ -- 47
+chr.to.int$ -- 46
+cite$ -- 92
+duplicate$ -- 759
+empty$ -- 1505
+format.name$ -- 435
+if$ -- 3845
+int.to.chr$ -- 2
+int.to.str$ -- 47
+missing$ -- 46
+newline$ -- 234
+num.names$ -- 139
+pop$ -- 380
+preamble$ -- 0
+purify$ -- 47
+quote$ -- 0
+skip$ -- 372
+stack$ -- 0
+substring$ -- 999
+swap$ -- 111
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 326
+warning$ -- 46
+while$ -- 140
+width$ -- 0
+write$ -- 509
+(There were 48 warnings)

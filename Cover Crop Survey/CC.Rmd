@@ -1,0 +1,271 @@
+---
+title: "Cover crop"
+author: "Maxwel Coura Oliveira"
+date: "3/19/2018"
+output: html_document
+---
+
+
+
+```{r include=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+library(scales)
+library(ggthemes)
+library(usmap)
+library(ggmap)
+library(ggrepel)
+library(maps)
+library(grid)
+library(mapdata)
+library(maptools)
+library(stringr)
+library(dplyr)
+library(ggsn)
+library(choroplethr)
+```
+
+
+
+```{r}
+Map <- read_csv("map.csv")
+```
+
+
+```{r}
+states = map_data("state")
+df <- subset(states, region =="nebraska")
+```
+
+```{r}
+counties <- map_data("county")
+county <- subset(counties, region =="nebraska")
+county 
+```
+
+
+```{r}
+base <- ggplot(data = df, mapping = aes(x = long, y = lat, group = group)) + 
+  coord_fixed(1.3) + 
+  geom_polygon(color = "black", fill = "white")
+base + theme_nothing()
+```
+
+
+```{r}
+Map1 <- dplyr::full_join(Map, county , by = "subregion")
+str(Map1)
+```
+
+```{r}
+lat <- 41.162780
+long <- -96.539740
+location <- "Ithaca" 
+Map2 <- data.frame(location, lat, long)
+```
+
+
+```{r}
+base <- ggplot(data = Map1, mapping = aes(x = long, y = lat, group = group, fill = cover)) + 
+  geom_polygon(data = Map1, aes(group=subregion, fill = cover, label = subregion), color="black") + 
+  scale_fill_gradient(name="Total ha", low = "lightblue", high = "purple4", na.value=NA) +
+  geom_polygon(color = "black", fill = "NA")  + 
+  #north(df, location = 'topright', symbol = 1, anchor = c(x = -103.85, y = 43.2)) +
+  #scalebar(data=df, dist = 100, dd2km = T, model = 'International', location = "topright") + 
+      theme_bw() +
+              theme(axis.text=element_text(size=14, color="black"), 
+        axis.title=element_blank(), panel.grid = element_blank(),
+        legend.position=c(0.11, 0.18), legend.text = element_text(size = 16, colour = "black"), legend.key = element_rect(fill=NA), plot.title = element_text(face="bold", size=17, color="red", hjust=1.7), legend.key.width = unit(1.8, "line"), legend.title=element_text(size=15, face="bold")) + 
+    ggsave("map.pdf",  units="in", width=12, height=6, dpi=600)
+```
+
+```{r}
+base + 
+  geom_point(data=Map2,  mapping = aes(x = long, y = lat, group = location))
+```
+
+
+
+
+```{r}
+Change=read.csv("Change.csv")
+str(Change)
+```
+
+
+
+```{r Major change names}
+Change$Change=factor(Change$Change, levels=c("Reduced yields", "Uniform yields", "Increased erosion", "Grazing", "Less chemicals", "Improved fertility", "Increased soil infiltration", "Increased soil tilth", "Increased organic matter", "Weed supression", "Reduced erosion"), labels=c("Reduced yields", "Uniform yields", "Increased erosion", "Grazing", "Less pesticides", "Improved fertility", "Increased soil infiltration", "Increased soil tilth", "Increased organic matter", "Weed supression", "Reduced erosion"))
+```
+
+
+
+```{r Major change flip}
+ggplot(Change, aes(x=Change, y=perc, fill=Change)) +  
+  geom_bar(stat = "identity", color="black", width=0.5)  +  
+  #scale_fill_manual(values = c("yellow", "yellow4", "darkred", "cornflowerblue", "navyblue", "darkolivegreen1", "forestgreen", "grey60", "black", "red", "deepskyblue")) + 
+  coord_flip() +
+  annotate("text", x = 1, y =49, label = c("n=42"), size=5) +
+  scale_fill_brewer(palette="RdYlGn") +
+  labs(y="% of respondents", x="") +  theme(axis.text=element_text(size=14, color="black"), 
+        axis.title=element_text(size=15,face="bold"), 
+        panel.background = element_rect(fill="white", color = "black"), 
+        panel.grid.major = element_line(color = "white"), 
+    panel.grid.minor = element_blank(), legend.key.size = unit(1, 'lines'),
+       legend.text = element_text(size = 10, colour = "black"), 
+    legend.position=c(9.2, 0.77), panel.border=element_rect(fill=NA, color="black", size=0.7, linetype = "solid"),
+    legend.background = element_rect(colour = "white"), plot.title =  element_text(size=16, hjust=0.5, color="black", face="bold"), legend.title=element_blank()) + ylim(0,50) +
+  ggsave("Majorchangeflip.pdf", units="in", width=8, height=6, dpi=300)
+```
+
+
+
+
+```{r}
+Chal=read.csv("Challenge.csv")
+str(Chal)
+```
+```{r}
+Chal$answer=factor(Chal$answer, levels=c("Subsequent crop yield reduction", "Cover crop costs", "Herbicide carryover into cover crop", "Cover crop termination","Cover crop planting and establishment"), labels=c("Subsequent crop yield reduction", "Cover crop costs", "Herbicide carryover into cover crop", "Cover crop termination","Cover crop planting and establishment"))
+```
+
+
+```{r}
+ggplot(Chal, aes(x=answer, y=perc, fill=answer)) +  
+  geom_bar(stat = "identity", color="black", width=0.3, position=position_dodge(0.2))  +  scale_fill_brewer(palette="RdYlGn") + coord_flip() + ylim(0,60) +
+  annotate("text", x = 0.85, y =58, label = c("n=41"), size=5) +
+  labs(y="% of respondents", x="") +  theme(axis.text=element_text(size=14, color="black"), 
+        axis.title=element_text(size=15,face="bold"), 
+        panel.background = element_rect(fill="white", color = "black"), 
+        panel.grid.major = element_line(color = "white"), 
+    panel.grid.minor = element_blank(), legend.key.size = unit(1, 'lines'),
+       legend.text = element_text(size = 10, colour = "black"), 
+    legend.position=c(9.2, 0.77), panel.border=element_rect(fill=NA, color="black", size=0.7, linetype = "solid"),
+    legend.background = element_rect(colour = "white"), plot.title =  element_text(size=16, hjust=0.5, color="black", face="bold"), legend.title=element_blank()) + 
+  ggsave("Challenge.pdf", units="in", width=8, height=6, dpi=300)
+```
+
+
+
+
+```{r}
+Program<-read.csv("Program.csv")
+Program$Program=factor(Program$Program, levels=c("glyphosate + other POST", "glyphosate + glufosinate", "glyphosate + 2,4-D + paraquat",  "glyphosate + 2,4-D", "glyphosate"), labels=c("glyphosate + other POST", "glyphosate + glufosinate", "glyphosate + 2,4-D + paraquat",  "glyphosate + 2,4-D", "glyphosate"))
+```
+
+
+```{r herb program}
+D<-ggplot(Program, aes(x=Program, y=Perc, fill=Program)) + 
+geom_bar(stat = "identity", color="black", width=0.3, position=position_dodge(0.2))  +  scale_fill_brewer(palette="RdYlGn") + coord_flip() + ylim(0,60) +
+  annotate("text", x = 0.85, y =57, label = c("n=66"), size=5) +
+  labs(y="% of respondents", x="") +  theme(axis.text=element_text(size=14, color="black"), 
+        axis.title=element_text(size=17,face="bold"), 
+        panel.background = element_rect(fill="white", color = "black"), 
+        panel.grid.major = element_line(color = "white"), 
+    panel.grid.minor = element_blank(), legend.key.size = unit(1, 'lines'),
+       legend.text = element_text(size = 10, colour = "black"), 
+    legend.position=c(9.2, 0.77), panel.border=element_rect(fill=NA, color="black", size=0.7, linetype = "solid"),
+    legend.background = element_rect(colour = "white"), plot.title =  element_text(size=16, hjust=0.5, color="black", face="bold"), legend.title=element_blank()) + 
+  ggsave("Herbprog.png", units="in", width=8, height=6, dpi=600)
+```
+
+
+
+```{r}
+PRE <- read_csv("preherb.csv")
+PRE$Program=factor(PRE$Program, levels=c("none", "crop planting", "crop termination", "crop planting and crop termination"), labels=c("none", "crop planting", "cover crop termination", "cover crop termination and crop planting"))
+```
+
+
+
+```{r}
+E<-ggplot(PRE, aes(x="", y=Perc, fill=Program)) + 
+geom_bar(stat = "identity", color="black", width=0.3)  +  scale_fill_brewer(palette="RdYlGn") + coord_flip() + ylim(0,100) +
+  annotate("text", x = 0.5, y =99, label = c("n=48"), size=5) +
+  labs(y="% of respondents", x="") +  theme(axis.text=element_text(size=14, color="black"), 
+        axis.title=element_text(size=17,face="bold"), 
+        panel.background = element_rect(fill="white", color = "black"), 
+        panel.grid.major = element_line(color = "white"), 
+    panel.grid.minor = element_blank(), legend.key.size = unit(1, 'lines'),
+       legend.text = element_text(size = 14, colour = "black"), 
+    legend.position=c(0.1, 0.85), panel.border=element_rect(fill=NA, color="black", size=0.7, linetype = "solid"),
+    legend.background = element_rect(colour = "white"), plot.title =  element_text(size=16, hjust=0.5, color="black", face="bold"), legend.title=element_blank()) + 
+  ggsave("pre.png", units="in", width=4, height=4, dpi=600)
+```
+
+
+
+```{r include=FALSE}
+library(cowplot)
+G<-plot_grid(D, E, nrow=1, ncol=2, vjust=2, labels = c('A', 'B')) 
+```
+
+```{r}
+ggsave("Combined.pdf", plot = G, device = NULL, path = NULL,
+  scale = 1, units="in", width=12, height=5, dpi=600)
+```
+
+
+
+```{r}
+Weed <- read_csv("weeds.csv")
+glimpse(Weed)
+```
+
+
+```{r}
+B<-ggplot(Weed, aes(x=Program, y=Perc, fill=Program)) + 
+geom_bar(stat = "identity", color="black", width=0.3)  +  scale_fill_brewer(palette="RdYlGn") + coord_flip() + ylim(0,100) +
+  annotate("text", x = 0.5, y =95, label = c("n=38"), size=5) +
+  labs(y="% of respondents", x="") +  theme(axis.text=element_text(size=14, color="black"), 
+        axis.title=element_text(size=15,face="bold"), 
+        panel.background = element_rect(fill="white", color = "black"), 
+        panel.grid.major = element_line(color = "white"), 
+    panel.grid.minor = element_blank(), legend.key.size = unit(1, 'lines'), 
+    legend.text = element_text(size = 10, colour = "black"), 
+    legend.position=c(9.2, 0.77), panel.border=element_rect(fill=NA, color="black", size=0.7, linetype = "solid"),
+    legend.background = element_rect(colour = "white"), plot.title =  element_text(size=16, hjust=0.5, color="black", face="bold"), legend.title=element_blank()) + 
+  ggsave("weed.png", units="in", width=6, height=4, dpi=600)
+```
+
+
+```{r}
+Perc<-c(93, 7)
+Answer<-c("Yes", "No")
+
+Data<-data.frame(Answer, Perc)
+```
+
+
+```{r}
+A<-ggplot(Data, aes(x="", y=Perc, fill=Answer)) + geom_bar(stat="identity", width=0.3, color="black") +
+  scale_fill_brewer(name="Improved weed control?", palette="RdYlGn") + coord_flip() + ylim(0,100) + 
+  annotate("text", x = 0.5, y =95, label = c("n=54"), size=5) +
+  labs(y="% of respondents", x="") +  theme(axis.text=element_text(size=14, color="black"), 
+        axis.title=element_text(size=15,face="bold"), 
+        panel.background = element_rect(fill="white", color = "black"), 
+        panel.grid.major = element_line(color = "white"), 
+    panel.grid.minor = element_blank(), legend.key.size = unit(1, 'lines'), 
+    legend.text = element_text(size = 14, colour = "black"), legend.direction = "vertical",
+    legend.position=c(0.2, 0.85), panel.border=element_rect(fill=NA, color="black", size=0.7, linetype = "solid"), 
+    legend.background = element_rect(colour = "white"), plot.title =  element_text(size=16, hjust=0.5, color="black", face="bold"), legend.title=element_text()) + 
+  ggsave("improve.png", units="in", width=4, height=4, dpi=600)
+```
+
+
+```{r}
+library(cowplot)
+G<-plot_grid(A, B, nrow=1, ncol=2, vjust=2, labels = c('A', 'B')) 
+```
+
+```{r}
+ggsave("Combined2.pdf", plot = G, device = NULL, path = NULL,
+  scale = 1, units="in", width=12, height=5, dpi=600)
+```
+
+
+
+
+

@@ -1,0 +1,46 @@
+---
+title: "Cover letter"
+#author: "Maxwel Coura Oliveira"
+#date: "4/24/2019"
+output: pdf_document
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(knitr)
+```
+
+
+
+
+\hfill Maxwel Coura Oliveira, Ph.D.
+
+\hfill Postdoctoral Research Associate Weed Scientist
+
+\hfill University of Wisconsin-Madison
+
+April 24, 2019
+
+
+Dear Dr. Mancinelli, Dr. Marinari and Dr. Radicetti,
+
+Please find enclosed the manuscript entitled "Survey of Cover Crop Management in Nebraska". This manuscript is a contribution for the Cover Crop special issue of the Agricultural Journal. The invitation was received last year to Dr. Rodrigo Werle, the principal investigator of this manuscript.
+
+This manuscript is a survey of Nebraska growers adoption and management of cover crops. Nebraska is a top producer state in the United States and our findings compare the growers cover crops strategies with research based literature. Results presented in our manuscript may aid growers and decision influencers to understand the bad and good of current cover crops practices and fine tune their operation moving forward.
+
+This manuscript has not submitted to other journas and it is considered for publication only at the Agriculture Journal. 
+
+Best regards,
+
+
+
+\vspace{3cm}
+
+
+
+Maxwel Coura Oliveira
+
+
+
+

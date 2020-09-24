@@ -1,0 +1,13 @@
+---
+title: "Manuscript"
+author: "Maxwel Coura Oliveira"
+date: "12/10/2018"
+output: pdf_document
+---
+
+
+
+```{r}
+devtools::install_github("crsh/papaja")
+```
+

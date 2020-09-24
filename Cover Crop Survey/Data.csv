@@ -1,0 +1,250 @@
+surveyid,county,region,role,acres,acresha,ccacres,ccacresha,ccarea,covercrop,crop,plantingcctime,howccplanting,ccspecies,ccterminationtime,howtermiantion,majorchange,challenge,improveweedc,weedspcontrol,herbicidecc,soilresidual
+1,Lancaster,Southeast,Grower,1250,505.8575,550,222.5773,44,Yes,field corn,after harvest,drill,cereal rye,1 week,herbicides,timely termination,,yes,,"glyphosate & 2,4-d",cc termination
+2,Saunders,Southeast,Grower,1200,485.6232,80,32.37488,6.7,Yes,field corn,after harvest,drill,mix,,,,,,,,
+3,Madison - Stanton,northeast,Grower,320,129.49952,220,89.03092,68.8,Yes,field corn,after harvest,drill,cereal rye,1 week,herbicides,,,,,glyphosate ,
+4,Saunders,Southeast,Grower,2500,1011.715,100,40.4686,4,Yes,field corn,after harvest,drill,mix,2 weeks,herbicides,,,no,,"glyphosate & 2,4-d",both
+5,Cedar,northeast,Grower,700,283.2802,625,252.92875,89.3,Yes,field corn,after harvest,drill,mix,2 weeks,herbicides,crop establishment,planting cc & terminating cc,yes,winter & earlysum,"glyphosate & 2,4-d",both
+6,Colfax,northeast,Grower,2000,809.372,600,242.8116,30,Yes,field corn,after harvest,drill,mix,at planting,herbicides,erosion control,planting cc & terminating cc,yes,winter & earlysum,"glyphosate & 2,4-d",cc termination
+7,Saunders,Southeast,Grower,900,364.2174,450,182.1087,50,Yes,field corn,after harvest,drill,cereal rye,,herbicides,erosion control,terminating cc,,,glyphosate & glufosinate,both
+8,Platte,northeast,Grower,615,248.88189,335,135.56981,54.5,Yes,field corn,after harvest,drill,mix,2 weeks,herbicides,weed suppression,terminating cc,yes,,"glyphosate & 2,4-d",
+9,nance,northeast,Grower,1000,404.686,300,121.4058,30,Yes,field corn,prior to harvest,aerial seeding,cereal rye,2 weeks,herbicides,erosion control soil tilth,,no,,glyphosate,cc termination
+10,Lancaster,Southeast,Consultant,5000,2023.43,800,323.7488,16,Yes,field corn,after harvest,drill,mix,,,,,yes,summer,glyphosate & glufosinate,
+11,Saline,Southeast,Grower,1000,404.686,150,60.7029,15,Yes,field corn,after harvest,drill,cereal rye,,,,,,,,
+12,,,Grower,700,283.2802,500,202.343,71.4,Yes,field corn,prior to harvest,aerial seeding,,,,,,,,,
+13,Saunders,Southeast,,450,182.1087,65,26.30459,14.4,Yes,field corn,after harvest,drill,cereal rye,,,,terminating cc,yes,,glyphosate,both
+14,Colfax - Dodge - Saunders,,Grower,3100,1254.5266,400,161.8744,12.9,Yes,field corn,prior to harvest,interseed,clover,,,,terminating cc,,,,
+15,Butler,Southeast,Grower,250,101.1715,130,52.60918,52,Yes,field corn,after harvest,drill,cereal rye,,herbicides,less chemicals ,terminating cc,yes,winter earlysum & summer,glyphosate,crop planting
+16,Madison,northeast,Consultant,4500,1821.087,700,283.2802,15.6,Yes,field corn,after harvest,drill,cereal rye,,herbicides,,,yes,winter & earlysum,glyphosate,cc termination
+17,York,Southeast,Grower,500,202.343,270,109.26522,54,Yes,field corn,after harvest,drill,cereal rye,2 weeks,non-herbicides,erosion control & weed suppression,terminating cc,yes,,glyphosate,both
+18,Polk,,Grower,600,242.8116,450,182.1087,75,Yes,field corn,after harvest,drill,cereal rye,,herbicides,,,,,"glyphosate & 2,4-d",
+19,Nance,northeast,Agronomist,100000,40468.6,15000,6070.29,15,Yes,field corn,,,mix,,herbicides,,,,,"glyphosate glufosinate paraquat & 2,4-d",both
+20,Polk,Southeast,Grower,2600,1052.1836,1400,566.5604,53.8,Yes,field corn,after harvest,aerial seeding,mix,2 weeks,herbicides,erosion control & weed suppression less chemicals,terminating cc,yes,winter & summer,"glyphosate & 2,4-d",crop planting
+21,nance,northeast,Grower,1500,607.029,100,40.4686,6.7,Yes,field corn,prior to harvest,aerial seeding,cereal rye,,herbicides,less compaction moisture retention & grazing,herbicide carryover,yes,winter & summer,"glyphosate paraquat & 2,4-d",crop planting
+22,Nemaha,,,1600,647.4976,360,145.68696,22.5,Yes,field corn,prior to harvest,aerial seeding,,2 weeks,herbicides,grazing,planting cc,yes,winter,glyphosate,
+23,Nemaha,,Grower,4000,1618.744,1000,404.686,25,Yes,field corn,prior to harvest,aerial seeding,mix,2 weeks,herbicides,erosion control soil tilth,,yes,winter & earlysum,"glyphosate & 2,4-d",
+24,Otoe ,Southeast,Grower,900,364.2174,350,141.6401,38.9,Yes,field corn,prior to harvest,aerial seeding,mix,2 weeks,herbicides,weed suppression,,yes,winter,"glyphosate & 2,4-d",both
+25,Madison,northeast,Grower,400,161.8744,400,161.8744,100,Yes,field corn,after harvest,drill,cereal rye,1 week,herbicides,,,yes,winter & summer,glyphosate,
+26,Stanton,northeast,Grower,500,202.343,20,8.09372,4,Yes,field corn,after harvest,drill,mix,,,,terminating cc,yes,winter,glyphosate,both
+27,Lancaster,Southeast,Grower,2000,809.372,140,56.65604,7,Yes,field corn,after harvest,drill,cereal rye,2 weeks,herbicides,,terminating cc,,,glyphosate,
+28,Butler - Polk,Southeast,Grower,20000,8093.72,2000,809.372,10,Yes,field corn,,interseed,mix,2 weeks,herbicides,increased OM,,yes,winter,"glyphosate & 2,4-d",cc termination
+29,Saunders,,Grower,320,129.49952,80,32.37488,25,Yes,field corn,after harvest,drill,cereal rye,,herbicides,erosion control,planting cc,yes,winter earlysum & summer,"glyphosate & 2,4-d",both
+30,Cass,Southeast,Grower,1600,647.4976,450,182.1087,28.1,Yes,field corn,after harvest,drill,cereal rye,2 weeks,herbicides,erosion control & weed suppression,,yes,,"glyphosate & 2,4-d",crop planting
+31,Colfax,northeast,Grower,800,323.7488,200,80.9372,25,Yes,field corn,after harvest,drill,mix,2 weeks,herbicides,weed suppression,,yes,,glyphosate,crop planting
+32,Colfax,northeast,Grower,1800,728.4348,300,121.4058,16.7,Yes,field corn,after harvest,drill,mix,2 weeks,herbicides,erosion control,,,,glyphosate,cc termination
+33,Saunders,Southeast,Grower,1500,607.029,500,202.343,33.3,Yes,field corn,,,cereal rye,2 weeks,,,,,,"glyphosate & 2,4-d",
+34,Cass,Southeast,Grower,1400,566.5604,800,323.7488,57.1,Yes,field corn,prior to harvest,aerial seeding,turnips,,herbicides,erosion control,,yes,winter & summer,"glyphosate & 2,4-d",cc termination
+35,Merrick,northeast,Grower,5000,2023.43,1500,607.029,30,Yes,field corn,,aerial seeding,cereal rye,,herbicides,increased OM,,no,,"glyphosate & 2,4-d",both
+36,Clay,Southeast,Grower,9500,3844.517,2500,1011.715,26.3,Yes,field corn,after harvest,drill,cereal rye,,herbicides,labor and equipment,,,,,
+37,Chase,,Consultant,30000,12140.58,7500,3035.145,25,Yes,field corn,,aerial seeding,,,non-herbicides,,,yes,summer,"glyphosate & 2,4-d",
+38,Saunders,Southeast,Grower,1800,728.4348,130,52.60918,7.2,Yes,field corn,after harvest,drill,cereal rye,,,,cost,,,,
+39,Butler,Southeast,Grower,2900,1173.5894,300,121.4058,10.3,Yes,field corn,after harvest,drill,mix,,,increased OM & erosion control,,,,glyphosate & other,both
+40,Saunders,Southeast,Grower,2600,1052.1836,340,137.59324,13.1,Yes,field corn,after harvest,drill,cereal rye,1 weed,herbicides,yield reduction,planting cc & terminating cc,yes,,"glyphosate & 2,4-d",cc termination
+41,Colfax,northeast,Grower,1000,404.686,500,202.343,50,Yes,field corn,after harvest,drill,wheat,at planting,herbicides,erosion control,planting cc,yes,winter & summer,glyphosate,both
+42,Kearney,West Central,Consultant,8000,3237.488,600,242.8116,7.5,Yes,field corn,,,mix,,herbicides,less chemicals ,,yes,,"glyphosate paraquat & 2,4-d",both
+43,Saunders,Southeast,Grower,,0,600,242.8116,,No,field corn,after harvest,drill,cereal rye,2 weeks,herbicides,erosion control,planting cc,yes,summer,glyphosate,cc termination
+44,Butler,Southeast,Grower,1500,607.029,210,84.98406,14,Yes,field corn,,,,,,,,yes,,,
+45,Merrick,northeast,Grower,1500,607.029,200,80.9372,13.3,Yes,field corn,after harvest,,cereal rye,at planting,,,planting cc,yes,,glyphosate,
+46,Saunders,Southeast,Grower,1350,546.3261,200,80.9372,14.8,Yes,field corn,after harvest,drill,cereal rye,2 weeks,herbicides,erosion control,crop yield reduction,yes,winter & summer,"glyphosate & 2,4-d",both
+47,Clay,Southeast,Other ,,,,,,,field corn,,,mix,2 weeks,herbicides,,,no,,glyphosate,
+48,Butler,Southeast,Grower,200,80.9372,200,80.9372,100,Yes,field corn,prior to harvest,interseed,mix,,,,planting cc,yes,,"glyphosate glufosinate paraquat & 2,4-d",dont
+49,Dodge,Southeast,Grower,1100,445.1546,70,28.32802,6.4,Yes,field corn,prior to harvest,aerial seeding,mix,2 weeks,herbicides,weed suppression & less chemicals,planting cc,yes,winter,"glyphosate & 2,4-d",crop planting
+50,Merrick,Southeast,Grower,1200,485.6232,160,64.74976,13.3,Yes,field corn,after harvest,drill,cereal rye,,,,,,,glyphosate,crop planting
+51,Hamilton,Southeast,Grower,,,,,,No,field corn,,,,,herbicides,,,,,,
+52,Washington,Southeast,Grower,650,263.0459,80,32.37488,12.3,Yes,field corn,after harvest,drill,cereal rye,,,,planting cc,,,glyphosate,
+53,Butler,Southeast,Grower,1500,607.029,1000,404.686,66.7,Yes,field corn,after harvest,drill,mix,2 weeks,herbicides,water infiltration,planting cc,yes,winter,"glyphosate & 2,4-d",
+54,Butler,Southeast,Grower,1800,728.4348,1200,485.6232,66.7,Yes,field corn,after harvest,,,at planting,herbicides,weed suppression,planting cc,yes,winter,glyphosate,both
+55,nance,northeast,Grower,850,343.9831,170,68.79662,20,Yes,field corn,,,,,,,,,,glyphosate,
+56,Butler,Southeast,Grower,5000,2023.43,2300,930.7778,46,Yes,field corn,after harvest,drill,cereal rye,2 weeks,herbicides,"increased OM, erosion control",planting cc,yes,winter earlysum & summer,glyphosate,
+57,Seward,Southeast,Grower,400,161.8744,160,64.74976,40,Yes,field corn,,,,,,soil tilth increased OM,,yes,summer,,
+58,Cass,Southeast,Grower,1000,404.686,100,40.4686,10,Yes,field corn,after harvest,drill,mix,,,,,,,"glyphosate & 2,4-d",both
+59,Washington,Southeast,Grower,1200,485.6232,100,40.4686,8.3,Yes,field corn,prior to harvest,aerial seeding,mix,2 weeks,herbicides,,,,,glyphosate,
+60,Butler,Southeast,Grower,140,56.65604,50,20.2343,35.7,Yes,field corn,,,,2 weeks,herbicides,erosion control soil tilth,planting cc,yes,winter earlysum & summer,glyphosate,cc termination
+61,Dodge,Southeast,Grower,1080,437.06088,340,137.59324,31.5,Yes,field corn,,aerial seeding,mix,,herbicides,,cost,yes,winter & summer,"glyphosate & 2,4-d",cc termination
+62,Sherman,northeast,Grower,300,121.4058,75,30.35145,25,Yes,field corn,prior to harvest,aerial seeding,mix,at planting,herbicides,erosion control,herbicide carryover,yes,summer,glyphosate,cc termination
+63,Cuming,northeast,Consultant,100000,40468.6,2500,1011.715,2.5,Yes,field corn,after harvest,drill,mix,at planting,herbicides,weed suppression & increased OM,terminating cc,yes,winter & earlysum,glyphosate,cc termination
+64,Douglas,na,Grower,3800,1537.8068,1100,445.1546,28.9,Yes,field corn,,,mix,2 weeks,herbicides,improved fertility,planting cc,yes,winter & summer,"glyphosate paraquat & 2,4-d",both
+65,Boyd,,Consultant,5000,2023.43,1500,607.029,30,Yes,field corn,prior to harvest,interseed,mix,2 weeks,herbicides,,herbicide carryover,yes,,"glyphosate paraquat & 2,4-d",cc termination
+66,Seward,Southeast,Grower,1800,728.4348,800,323.7488,44.4,Yes,field corn,after harvest,drill,cereal rye,2 weeks,herbicides,erosion control soil tilth,terminating cc,yes,winter,"glyphosate & 2,4-d",both
+67,Seward,Southeast,Industry,80,32.37488,12,4.856232,15,Yes,field corn,after harvest,drill,mix,2 weeks,herbicides,,planting cc,yes,summer,"glyphosate & 2,4-d",crop planting
+68,Lancaster,Southeast,Grower,600,242.8116,100,40.4686,16.7,Yes,field corn,after harvest,drill,mix,2 weeks,herbicides,,,yes,winter,glyphosate,
+69,Richardson,,Grower,1700,687.9662,1700,687.9662,100,Yes,field corn,,,mix,2 weeks,herbicides,weed suppression soil tilth,terminating cc,yes,winter,"glyphosate & 2,4-d",both
+70,Sarpy,Southeast,Other,800,323.7488,160,64.74976,20,Yes,field corn,,,,,herbicides,,,,,,
+71,Cass,Southeast,Grower,,,,,,No,field corn,,,,,,,,,,,
+72,Adams,Southeast,Other,,,,,,No,field corn,,,,,,,planting cc,,,,
+73,Dodge,Southeast,Grower,,,,,,No,field corn,,,,,,,,,,,
+74,Saunders,Southeast,Grower,,,,,,No,field corn,,,,,,,,,,,
+75,Saunders,Southeast,Grower,,,,,,No,field corn,,,,,,,,,,,
+76,Seward,Southeast,Grower,,,,,,No,field corn,,,,,,,,,,,
+77,Bulter,Southeast,Grower,3500,1416.401,700,283.2802,20,Yes,field corn,after harvest,drill,cereal rye,,non-herbicides,erosion control & increased OM soil tilth,planting cc,yes,winter & summer,glyphosate & other,both
+78,Saunders,Southeast,Grower,450,182.1087,150,60.7029,33.3,Yes,field corn,after harvest,drill,mix,,,,planting cc,,,glyphosate,cc termination
+79,Colfax,northeast,Grower,1000,404.686,160,64.74976,16,Yes,field corn,prior to harvest,aerial seeding,cereal rye,,,,,,,,
+80,,,,,,,,,No,field corn,,,,1 week,herbicides,increased OM & weed suppression,planting cc,yes,earlysum,glyphosate,crop planting
+81,,,Grower,300,121.4058,300,121.4058,100,Yes,field corn,prior to harvest,aerial seeding,mix,1 week,herbicides,increased OM ,,yes,winter,"glyphosate & 2,4-d",cc termination
+82,,,,,,,,,No,field corn,,,,,,increased OM & weed suppression,planting cc,yes,winter & summer,glyphosate,both
+83,Bulter,Southeast,Grower,900,364.2174,300,121.4058,33.3,Yes,field corn,prior to harvest,interseed,mix,,,soil tilth,planting cc,yes,summer,"glyphosate & 2,4-d",crop planting
+1,Lancaster,Southeast,Grower,1250,505.8575,550,222.5773,44,Yes,seed corn,,,,,,timely termination,,yes,,"glyphosate & 2,4-d",cc termination
+2,Saunders,Southeast,Grower,1200,485.6232,80,32.37488,6.7,Yes,seed corn,,,,,,,,,,,
+3,Madison - Stanton,northeast,Grower,320,129.49952,220,89.03092,68.8,Yes,seed corn,,,,,,,,,,glyphosate ,
+4,Saunders,Southeast,Grower,2500,1011.715,100,40.4686,4,Yes,seed corn,male row destruction,interseed,mix,,,,,no,,"glyphosate & 2,4-d",both
+5,Cedar,northeast,Grower,700,283.2802,625,252.92875,89.3,Yes,seed corn,,,,,,crop establishment,planting cc & terminating cc,yes,winter & earlysum,"glyphosate & 2,4-d",both
+6,Colfax,northeast,Grower,2000,809.372,600,242.8116,30,Yes,seed corn,after harvest,drill,mix,,2 weeks,erosion control,planting cc & terminating cc,yes,winter & earlysum,"glyphosate & 2,4-d",cc termination
+7,Saunders,Southeast,Grower,900,364.2174,450,182.1087,50,Yes,seed corn,,,,,,erosion control,terminating cc,,,glyphosate & glufosinate,both
+8,Platte,northeast,Grower,615,248.88189,335,135.56981,54.5,Yes,seed corn,,,,,,weed suppression,terminating cc,yes,,"glyphosate & 2,4-d",
+9,nance,northeast,Grower,1000,404.686,300,121.4058,30,Yes,seed corn,,,,,,erosion control soil tilth,,no,,glyphosate,cc termination
+10,Lancaster,Southeast,Consultant,5000,2023.43,800,323.7488,16,Yes,seed corn,,,,,,,,yes,summer,glyphosate & glufosinate,
+11,Saline,Southeast,Grower,1000,404.686,150,60.7029,15,Yes,seed corn,,,,,,,,,,,
+12,,,Grower,700,283.2802,500,202.343,71.4,Yes,seed corn,,,,,,,,,,,
+13,Saunders,Southeast,,450,182.1087,65,26.30459,14.4,Yes,seed corn,,,,,,,terminating cc,yes,,glyphosate,both
+14,Colfax - Dodge - Saunders,,Grower,3100,1254.5266,400,161.8744,12.9,Yes,seed corn,male row destruction,interseed,clover,,,,terminating cc,,,,
+15,Butler,Southeast,Grower,250,101.1715,130,52.60918,52,Yes,seed corn,,,,,,less chemicals ,terminating cc,yes,winter earlysum & summer,glyphosate,crop planting
+16,Madison,northeast,Consultant,4500,1821.087,700,283.2802,15.6,Yes,seed corn,,,,,,,,yes,winter & earlysum,glyphosate,cc termination
+17,York,Southeast,Grower,500,202.343,270,109.26522,54,Yes,seed corn,,,,,,erosion control & weed suppression,terminating cc,yes,,glyphosate,both
+18,Polk,,Grower,600,242.8116,450,182.1087,75,Yes,seed corn,male row destruction,interseed,mix,,2 weeks,,,,,"glyphosate & 2,4-d",
+19,Nance,northeast,Agronomist,100000,40468.6,15000,6070.29,15,Yes,seed corn,,,,,,,,,,"glyphosate glufosinate paraquat & 2,4-d",both
+20,Polk,Southeast,Grower,2600,1052.1836,1400,566.5604,53.8,Yes,seed corn,after harvest,spread,mix,,2 weeks,erosion control & weed suppression less chemicals,terminating cc,yes,winter & summer,"glyphosate & 2,4-d",crop planting
+21,nance,northeast,Grower,1500,607.029,100,40.4686,6.7,Yes,seed corn,,,,,,less compaction moisture retention & grazing,herbicide carryover,yes,winter & summer,"glyphosate paraquat & 2,4-d",crop planting
+22,Nemaha,,,1600,647.4976,360,145.68696,22.5,Yes,seed corn,,,,,,grazing,planting cc,yes,winter,glyphosate,
+23,Nemaha,,Grower,4000,1618.744,1000,404.686,25,Yes,seed corn,,,,,,erosion control soil tilth,,yes,winter & earlysum,"glyphosate & 2,4-d",
+24,Otoe ,Southeast,Grower,900,364.2174,350,141.6401,38.9,Yes,seed corn,,,,,,weed suppression,,yes,winter,"glyphosate & 2,4-d",both
+25,Madison,northeast,Grower,400,161.8744,400,161.8744,100,Yes,seed corn,,,,,,,,yes,winter & summer,glyphosate,
+26,Stanton,northeast,Grower,500,202.343,20,8.09372,4,Yes,seed corn,,,,,,,terminating cc,yes,winter,glyphosate,both
+27,Lancaster,Southeast,Grower,2000,809.372,140,56.65604,7,Yes,seed corn,,,,,,,terminating cc,,,glyphosate,
+28,Butler - Polk,Southeast,Grower,20000,8093.72,2000,809.372,10,Yes,seed corn,male row destruction,interseed,mix,,,increased OM,,yes,winter,"glyphosate & 2,4-d",cc termination
+29,Saunders,,Grower,320,129.49952,80,32.37488,25,Yes,seed corn,,,,,,erosion control,planting cc,yes,winter earlysum & summer,"glyphosate & 2,4-d",both
+30,Cass,Southeast,Grower,1600,647.4976,450,182.1087,28.1,Yes,seed corn,,,,,,erosion control & weed suppression,,yes,,"glyphosate & 2,4-d",crop planting
+31,Colfax,northeast,Grower ,800,323.7488,200,80.9372,25,Yes,seed corn,,,,,,weed suppression,,yes,,glyphosate,crop planting
+32,Colfax,northeast,Grower,1800,728.4348,300,121.4058,16.7,Yes,seed corn,,,,,,erosion control,,,,glyphosate,cc termination
+33,Saunders,Southeast,Grower,1500,607.029,500,202.343,33.3,Yes,seed corn,,,,,,,,,,"glyphosate & 2,4-d",
+34,Cass,Southeast,Grower,1400,566.5604,800,323.7488,57.1,Yes,seed corn,,,,,,erosion control,,yes,winter & summer,"glyphosate & 2,4-d",cc termination
+35,Merrick,northeast,Grower,5000,2023.43,1500,607.029,30,Yes,seed corn,,interseed,mix,,,increased OM,,no,,"glyphosate & 2,4-d",both
+36,Clay,Southeast,Grower,9500,3844.517,2500,1011.715,26.3,Yes,seed corn,,,,,,labor and equipment,,,,,
+37,Chase,,Consultant,30000,12140.58,7500,3035.145,25,Yes,seed corn,male row destruction,aerial seeding,,,,,,yes,summer,"glyphosate & 2,4-d",
+38,Saunders,Southeast,Grower,1800,728.4348,130,52.60918,7.2,Yes,seed corn,,,,,,,cost,,,,
+39,Butler,Southeast,Grower,2900,1173.5894,300,121.4058,10.3,Yes,seed corn,,,,,,increased OM & erosion control,,,,glyphosate & other,both
+40,Saunders,Southeast,Grower,2600,1052.1836,340,137.59324,13.1,Yes,seed corn,,,,,,yield reduction,planting cc & terminating cc,yes,,"glyphosate & 2,4-d",cc termination
+41,Colfax,northeast,Grower,1000,404.686,500,202.343,50,Yes,seed corn,,,,,,erosion control,planting cc,yes,winter & summer,glyphosate,both
+42,Kearney,West Central,Consultant,8000,3237.488,600,242.8116,7.5,Yes,seed corn,,,,,,less chemicals ,,yes,,"glyphosate paraquat & 2,4-d",both
+43,Saunders,Southeast,Grower,,,600,242.8116,,No,seed corn,,,,,,erosion control,planting cc,yes,summer,glyphosate,cc termination
+44,Butler,Southeast,Grower,1500,607.029,210,84.98406,14,Yes,seed corn,,,,,,,,yes,,,
+45,Merrick,northeast,Grower,1500,607.029,200,80.9372,13.3,Yes,seed corn,,,,,,,planting cc,yes,,glyphosate,
+46,Saunders,Southeast,Grower,1350,546.3261,200,80.9372,14.8,Yes,seed corn,,,,,,erosion control,crop yield reduction,yes,winter & summer,"glyphosate & 2,4-d",both
+47,Clay,Southeast,Other,,,,,,,seed corn,,,,,,,,no,,glyphosate,
+48,Butler,Southeast,Grower,200,80.9372,200,80.9372,100,Yes,seed corn,,,,,,,planting cc,yes,,"glyphosate glufosinate paraquat & 2,4-d",dont
+49,Dodge,Southeast,Grower,1100,445.1546,70,28.32802,6.4,Yes,seed corn,,,,,,weed suppression & less chemicals,planting cc,yes,winter,"glyphosate & 2,4-d",crop planting
+50,Merrick,Southeast,Grower,1200,485.6232,160,64.74976,13.3,Yes,seed corn,,,,,,,,,,glyphosate,crop planting
+51,Hamilton,Southeast,Grower,,,,,,No,seed corn,,,,,,,,,,,
+52,Washington,Southeast,Grower,650,263.0459,80,32.37488,12.3,Yes,seed corn,,,,,,,planting cc,,,glyphosate,
+53,Butler,Southeast,Grower,1500,607.029,1000,404.686,66.7,Yes,seed corn,male row destruction,interseed,mix,,2 weeks,water infiltration,planting cc,yes,winter,"glyphosate & 2,4-d",
+54,Butler,Southeast,Grower,1800,728.4348,1200,485.6232,66.7,Yes,seed corn,male row destruction,interseed,mix,,,weed suppression,planting cc,yes,winter,glyphosate,both
+55,nance,northeast,Grower,850,343.9831,170,68.79662,20,Yes,seed corn,,,,,,,,,,glyphosate,
+56,Butler,Southeast,Grower,5000,2023.43,2300,930.7778,46,Yes,seed corn,,,,,,"increased OM, erosion control",planting cc,yes,winter earlysum & summer,glyphosate,
+57,Seward,Southeast,Grower,400,161.8744,160,64.74976,40,Yes,seed corn,male row destruction,interseed,mix,,,soil tilth increased OM,,yes,summer,,
+58,Cass,Southeast,Grower,1000,404.686,100,40.4686,10,Yes,seed corn,,,,,,,,,,"glyphosate & 2,4-d",both
+59,Washington,Southeast,Grower,1200,485.6232,100,40.4686,8.3,Yes,seed corn,,,,,,,,,,glyphosate,
+60,Butler,Southeast,Grower,140,56.65604,50,20.2343,35.7,Yes,seed corn,,,,,,erosion control soil tilth,planting cc,yes,winter earlysum & summer,glyphosate,cc termination
+61,Dodge,Southeast,Grower,1080,437.06088,340,137.59324,31.5,Yes,seed corn,male row destruction,aerial seeding,mix,,2 weeks,,cost,yes,winter & summer,"glyphosate & 2,4-d",cc termination
+62,Sherman,northeast,Grower,300,121.4058,75,30.35145,25,Yes,seed corn,,,,,,erosion control,herbicide carryover,yes,summer,glyphosate,cc termination
+63,Cuming,northeast,Consultant,100000,40468.6,2500,1011.715,2.5,Yes,seed corn,,,,,,weed suppression & increased OM,terminating cc,yes,winter & earlysum,glyphosate,cc termination
+64,Douglas,na,Grower,3800,1537.8068,1100,445.1546,28.9,Yes,seed corn,male row destruction,interseed,mix,,2 weeks,improved fertility,planting cc,yes,winter & summer,"glyphosate paraquat & 2,4-d",both
+65,Boyd,,Consultant,5000,2023.43,1500,607.029,30,Yes,seed corn,,,,,,,herbicide carryover,yes,,"glyphosate paraquat & 2,4-d",cc termination
+66,Seward,Southeast,Grower,1800,728.4348,800,323.7488,44.4,Yes,seed corn,male row destruction,interseed,mix,,2 weeks,erosion control soil tilth,terminating cc,yes,winter,"glyphosate & 2,4-d",both
+67,Seward,Southeast,Industry,80,32.37488,12,4.856232,15,Yes,seed corn,,,,,,,planting cc,yes,summer,"glyphosate & 2,4-d",crop planting
+68,Lancaster,Southeast,Grower,600,242.8116,100,40.4686,16.7,Yes,seed corn,,,,,,,,yes,winter,glyphosate,
+69,Richardson,,Grower,1700,687.9662,1700,687.9662,100,Yes,seed corn,,,,,,weed suppression soil tilth,terminating cc,yes,winter,"glyphosate & 2,4-d",both
+70,Sarpy,Southeast,Other,800,323.7488,160,64.74976,20,Yes,seed corn,,,,,,,,,,,
+71,Cass,Southeast,Grower,,,,,,No,seed corn,,,,,,,,,,,
+72,Adams,Southeast,Other,,,,,,No,seed corn,,,,,,,planting cc,,,,
+73,Dodge,Southeast,Grower,,,,,,No,seed corn,,,,,,,,,,,
+74,Saunders,Southeast,Grower,,,,,,No,seed corn,,,,,,,,,,,
+75,Saunders,Southeast,Grower,,,,,,No,seed corn,,,,,,,,,,,
+76,Seward,Southeast,Grower,,,,,,No,seed corn,,,,,,,,,,,
+77,Bulter,Southeast,Grower,3500,1416.401,700,283.2802,20,Yes,seed corn,,,,,,erosion control & increased OM soil tilth,planting cc,yes,winter & summer,glyphosate & other,both
+78,Saunders,Southeast,Grower,450,182.1087,150,60.7029,33.3,Yes,seed corn,,,,,,,planting cc,,,glyphosate,cc termination
+79,Colfax,northeast,Grower,1000,404.686,160,64.74976,16,Yes,seed corn,,,,,,,,,,,
+80,,,,,,,,,No,seed corn,,,,,,increased OM & weed suppression,planting cc,yes,earlysum,glyphosate,crop planting
+81,,,Grower,300,121.4058,300,121.4058,100,Yes,seed corn,,,,,,increased OM ,,yes,winter,"glyphosate & 2,4-d",cc termination
+82,,,,,,,,,No,seed corn,,,,,,increased OM & weed suppression,planting cc,yes,winter & summer,glyphosate,both
+83,Bulter,Southeast,Grower,900,364.2174,300,121.4058,33.3,Yes,seed corn,,,mix,,,soil tilth,planting cc,yes,summer,"glyphosate & 2,4-d",crop planting
+1,Lancaster,Southeast,Grower,1250,505.8575,550,222.5773,44,Yes,soybean,,,,,,timely termination,,yes,,"glyphosate & 2,4-d",cc termination
+2,Saunders,Southeast,Grower,1200,485.6232,80,32.37488,6.7,Yes,soybean,after harvest,drill,,,,,,,,,
+3,Madison - Stanton,northeast,Grower,320,129.49952,220,89.03092,68.8,Yes,soybean,after harvest,drill,,1 week,herbicides,,,,,glyphosate ,
+4,Saunders,Southeast,Grower,2500,1011.715,100,40.4686,4,Yes,soybean,after harvest,drill,,at planting,herbicides,,,no,,"glyphosate & 2,4-d",both
+5,Cedar,northeast,Grower,700,283.2802,625,252.92875,89.3,Yes,soybean,,,,,,crop establishment,planting cc & terminating cc,yes,winter & earlysum,"glyphosate & 2,4-d",both
+6,Colfax,northeast,Grower,2000,809.372,600,242.8116,30,Yes,soybean,after harvest,drill,mix,2 weeks,herbicides,erosion control,planting cc & terminating cc,yes,winter & earlysum,"glyphosate & 2,4-d",cc termination
+7,Saunders,Southeast,Grower,900,364.2174,450,182.1087,50,Yes,soybean,after harvest,drill,cereal rye,,herbicides,erosion control,terminating cc,,,glyphosate & glufosinate,both
+8,Platte,northeast,Grower,615,248.88189,335,135.56981,54.5,Yes,soybean,after harvest,drill,,,herbicides,weed suppression,terminating cc,yes,,"glyphosate & 2,4-d",
+9,nance,northeast,Grower,1000,404.686,300,121.4058,30,Yes,soybean,prior to harvest,aerial seeding,mix,1 week,herbicides,erosion control soil tilth,,no,,glyphosate,cc termination
+10,Lancaster,Southeast,Consultant,5000,2023.43,800,323.7488,16,Yes,soybean,,,,,,,,yes,summer,glyphosate & glufosinate,
+11,Saline,Southeast,Grower,1000,404.686,150,60.7029,15,Yes,soybean,after harvest,drill,cereal rye,,,,,,,,
+12,,,Grower,700,283.2802,500,202.343,71.4,Yes,soybean,after harvest,drill,cereal rye,,,,,,,,
+13,Saunders,Southeast,,450,182.1087,65,26.30459,14.4,Yes,soybean,after harvest,,,,,,terminating cc,yes,,glyphosate,both
+14,Colfax - Dodge - Saunders,,Grower,3100,1254.5266,400,161.8744,12.9,Yes,soybean,,,,,,,terminating cc,,,,
+15,Butler,Southeast,Grower,250,101.1715,130,52.60918,52,Yes,soybean,after harvest,drill,mix,at planting,herbicides,less chemicals ,terminating cc,yes,winter earlysum & summer,glyphosate,crop planting
+16,Madison,northeast,Consultant,4500,1821.087,700,283.2802,15.6,Yes,soybean,after harvest,drill,mix,,herbicides,,,yes,winter & earlysum,glyphosate,cc termination
+17,York,Southeast,Grower,500,202.343,270,109.26522,54,Yes,soybean,after harvest,drill,cereal rye,at planting,non-herbicides,erosion control & weed suppression,terminating cc,yes,,glyphosate,both
+18,Polk,,Grower,600,242.8116,450,182.1087,75,Yes,soybean,after harvest,drill,mix,,herbicides,,,,,"glyphosate & 2,4-d",
+19,Nance,northeast,Agronomist,100000,40468.6,15000,6070.29,15,Yes,soybean,prior to harvest,aerial seeding,cereal rye,at planting,herbicides,,,,,"glyphosate glufosinate paraquat & 2,4-d",both
+20,Polk,Southeast,Grower,2600,1052.1836,1400,566.5604,53.8,Yes,soybean,prior to harvest,,mix,2 weeks,herbicides,erosion control & weed suppression less chemicals,terminating cc,yes,winter & summer,"glyphosate & 2,4-d",crop planting
+21,nance,northeast,Grower,1500,607.029,100,40.4686,6.7,Yes,soybean,after harvest,drill,mix,,herbicides,less compaction moisture retention & grazing,herbicide carryover,yes,winter & summer,"glyphosate paraquat & 2,4-d",crop planting
+22,Nemaha,,,1600,647.4976,360,145.68696,22.5,Yes,soybean,prior to harvest,aerial seeding,,2 weeks,,grazing,planting cc,yes,winter,glyphosate,
+23,Nemaha,,Grower,4000,1618.744,1000,404.686,25,Yes,soybean,prior to harvest,aerial seeding,mix,1 week,herbicides,erosion control soil tilth,,yes,winter & earlysum,"glyphosate & 2,4-d",
+24,Otoe ,Southeast,Grower,900,364.2174,350,141.6401,38.9,Yes,soybean,prior to harvest,aerial seeding,mix,at planting,herbicides,weed suppression,,yes,winter,"glyphosate & 2,4-d",both
+25,Madison,northeast,Grower,400,161.8744,400,161.8744,100,Yes,soybean,after harvest,drill,,1 week,,,,yes,winter & summer,glyphosate,
+26,Stanton,northeast,Grower,500,202.343,20,8.09372,4,Yes,soybean,,,,,,,terminating cc,yes,winter,glyphosate,both
+27,Lancaster,Southeast,Grower,2000,809.372,140,56.65604,7,Yes,soybean,after harvest,drill,cereal rye,2 weeks,herbicides,,terminating cc,,,glyphosate,
+28,Butler - Polk,Southeast,Grower,20000,8093.72,2000,809.372,10,Yes,soybean,prior to harvest,aerial seeding,mix,2 weeks,herbicides,increased OM,,yes,winter,"glyphosate & 2,4-d",cc termination
+29,Saunders,,Grower,320,129.49952,80,32.37488,25,Yes,soybean,,,,,herbicides,erosion control,planting cc,yes,winter earlysum & summer,"glyphosate & 2,4-d",both
+30,Cass,Southeast,Grower,1600,647.4976,450,182.1087,28.1,Yes,soybean,after harvest,,cereal rye,,,erosion control & weed suppression,,yes,,"glyphosate & 2,4-d",crop planting
+31,Colfax,northeast,Grower ,800,323.7488,200,80.9372,25,Yes,soybean,after harvest,drill,mix,1 week,herbicides,weed suppression,,yes,,glyphosate,crop planting
+32,Colfax,northeast,Grower,1800,728.4348,300,121.4058,16.7,Yes,soybean,after harvest,drill,mix,,herbicides,erosion control,,,,glyphosate,cc termination
+33,Saunders,Southeast,Grower,1500,607.029,500,202.343,33.3,Yes,soybean,,,,,herbicides,,,,,"glyphosate & 2,4-d",
+34,Cass,Southeast,Grower,1400,566.5604,800,323.7488,57.1,Yes,soybean,prior to harvest,aerial seeding,,2 weeks,herbicides,erosion control,,yes,winter & summer,"glyphosate & 2,4-d",cc termination
+35,Merrick,northeast,Grower,5000,2023.43,1500,607.029,30,Yes,soybean,,drill,cereal rye,at planting,herbicides,increased OM,,no,,"glyphosate & 2,4-d",both
+36,Clay,Southeast,Grower,9500,3844.517,2500,1011.715,26.3,Yes,soybean,after harvest,drill,cereal rye,,herbicides,labor and equipment,,,,,
+37,Chase,,Consultant,30000,12140.58,7500,3035.145,25,Yes,soybean,,aerial seeding,,,,,,yes,summer,"glyphosate & 2,4-d",
+38,Saunders,Southeast,Grower,1800,728.4348,130,52.60918,7.2,Yes,soybean,,,,,,,cost,,,,
+39,Butler,Southeast,Grower,2900,1173.5894,300,121.4058,10.3,Yes,soybean,,,,2 weeks,herbicides,increased OM & erosion control,,,,glyphosate & other,both
+40,Saunders,Southeast,Grower,2600,1052.1836,340,137.59324,13.1,Yes,soybean,after harvest,drill,,,,yield reduction,planting cc & terminating cc,yes,,"glyphosate & 2,4-d",cc termination
+41,Colfax,northeast,Grower,1000,404.686,500,202.343,50,Yes,soybean,after harvest,drill,cereal rye,at planting,herbicides,erosion control,planting cc,yes,winter & summer,glyphosate,both
+42,Kearney,West Central,Consultant,8000,3237.488,600,242.8116,7.5,Yes,soybean,after harvest,drill,mix,1 week,herbicides,less chemicals ,,yes,,"glyphosate paraquat & 2,4-d",both
+43,Saunders,Southeast,Grower,,,600,242.8116,,No,soybean,after harvest,drill,mix,,herbicides,erosion control,planting cc,yes,summer,glyphosate,cc termination
+44,Butler,Southeast,Grower,1500,607.029,210,84.98406,14,Yes,soybean,after harvest,drill,cereal rye,,,,,yes,,,
+45,Merrick,northeast,Grower,1500,607.029,200,80.9372,13.3,Yes,soybean,after harvest,,,,,,planting cc,yes,,glyphosate,
+46,Saunders,Southeast,Grower,1350,546.3261,200,80.9372,14.8,Yes,soybean,after harvest,drill,cereal rye,2 weeks,herbicides,erosion control,crop yield reduction,yes,winter & summer,"glyphosate & 2,4-d",both
+47,Clay,Southeast,Other,,,,,,,soybean,,drill,mix,2 weeks,non-herbicides,,,no,,glyphosate,
+48,Butler,Southeast,Grower,200,80.9372,200,80.9372,100,Yes,soybean,after harvest,drill,mix,,,,planting cc,yes,,"glyphosate glufosinate paraquat & 2,4-d",dont
+49,Dodge,Southeast,Grower,1100,445.1546,70,28.32802,6.4,Yes,soybean,prior to harvest,aerial seeding,mix,2 weeks,herbicides,weed suppression & less chemicals,planting cc,yes,winter,"glyphosate & 2,4-d",crop planting
+50,Merrick,Southeast,Grower,1200,485.6232,160,64.74976,13.3,Yes,soybean,,,,,,,,,,glyphosate,crop planting
+51,Hamilton,Southeast,Grower,,,,,,No,soybean,,,,,,,,,,,
+52,Washington,Southeast,Grower,650,263.0459,80,32.37488,12.3,Yes,soybean,,,,2 weeks,herbicides,,planting cc,,,glyphosate,
+53,Butler,Southeast,Grower,1500,607.029,1000,404.686,66.7,Yes,soybean,after harvest,drill,mix,1 week,herbicides,water infiltration,planting cc,yes,winter,"glyphosate & 2,4-d",
+54,Butler,Southeast,Grower,1800,728.4348,1200,485.6232,66.7,Yes,soybean,after harvest,drill,cereal rye,at planting,herbicides,weed suppression,planting cc,yes,winter,glyphosate,both
+55,nance,northeast,Grower,850,343.9831,170,68.79662,20,Yes,soybean,after harvest,spread,cereal rye,,herbicides,,,,,glyphosate,
+56,Butler,Southeast,Grower,5000,2023.43,2300,930.7778,46,Yes,soybean,after harvest,drill,mix,1 week,herbicides,"increased OM, erosion control",planting cc,yes,winter earlysum & summer,glyphosate,
+57,Seward,Southeast,Grower,400,161.8744,160,64.74976,40,Yes,soybean,,,,,,soil tilth increased OM,,yes,summer,,
+58,Cass,Southeast,Grower,1000,404.686,100,40.4686,10,Yes,soybean,,,,,,,,,,"glyphosate & 2,4-d",both
+59,Washington,Southeast,Grower,1200,485.6232,100,40.4686,8.3,Yes,soybean,prior to harvest,aerial seeding,,2  weeks,herbicides,,,,,glyphosate,
+60,Butler,Southeast,Grower,140,56.65604,50,20.2343,35.7,Yes,soybean,,,,,,erosion control soil tilth,planting cc,yes,winter earlysum & summer,glyphosate,cc termination
+61,Dodge,Southeast,Grower,1080,437.06088,340,137.59324,31.5,Yes,soybean,prior to harvest,aerial seeding,mix,,herbicides,,cost,yes,winter & summer,"glyphosate & 2,4-d",cc termination
+62,Sherman,northeast,Grower,300,121.4058,75,30.35145,25,Yes,soybean,after harvest,aerial seeding,cereal rye,at planting,herbicides,erosion control,herbicide carryover,yes,summer,glyphosate,cc termination
+63,Cuming,northeast,Consultant,100000,40468.6,2500,1011.715,2.5,Yes,soybean,after harvest,drill,cereal rye,,herbicides,weed suppression & increased OM,terminating cc,yes,winter & earlysum,glyphosate,cc termination
+64,Douglas,na,Grower,3800,1537.8068,1100,445.1546,28.9,Yes,soybean,after harvest,drill,mix,2 weeks,,improved fertility,planting cc,yes,winter & summer,"glyphosate paraquat & 2,4-d",both
+65,Boyd,,Consultant,5000,2023.43,1500,607.029,30,Yes,soybean,after harvest,drill,cereal rye,2 weeks,,,herbicide carryover,yes,,"glyphosate paraquat & 2,4-d",cc termination
+66,Seward,Southeast,Grower,1800,728.4348,800,323.7488,44.4,Yes,soybean,after harvest,drill,mix,at planting,herbicides,erosion control soil tilth,terminating cc,yes,winter,"glyphosate & 2,4-d",both
+67,Seward,Southeast,Industry,80,32.37488,12,4.856232,15,Yes,soybean,after harvest,drill,mix,1 week,herbicides,,planting cc,yes,summer,"glyphosate & 2,4-d",crop planting
+68,Lancaster,Southeast,Grower,600,242.8116,100,40.4686,16.7,Yes,soybean,,,,,,,,yes,winter,glyphosate,
+69,Richardson,,Grower,1700,687.9662,1700,687.9662,100,Yes,soybean,after harvest,drill,mix,2 weeks,herbicides,weed suppression soil tilth,terminating cc,yes,winter,"glyphosate & 2,4-d",both
+70,Sarpy,Southeast,Other,800,323.7488,160,64.74976,20,Yes,soybean,prior to harvest,aerial seeding,cereal rye,,,,,,,,
+71,Cass,Southeast,Grower,,,,,,No,soybean,,,,,,,,,,,
+72,Adams,Southeast,Other,,,,,,No,soybean,,,,,,,planting cc,,,,
+73,Dodge,Southeast,Grower,,,,,,No,soybean,,,,,,,,,,,
+74,Saunders,Southeast,Grower,,,,,,No,soybean,,,,,,,,,,,
+75,Saunders,Southeast,Grower,,,,,,No,soybean,,,,,,,,,,,
+76,Seward,Southeast,Grower,,,,,,No,soybean,,,,,,,,,,,
+77,Bulter,Southeast,Grower,3500,1416.401,700,283.2802,20,Yes,soybean,after harvest,drill,cereal rye,,herbicides,erosion control & increased OM soil tilth,planting cc,yes,winter & summer,glyphosate & other,both
+78,Saunders,Southeast,Grower,450,182.1087,150,60.7029,33.3,Yes,soybean,,,,2 weeks,herbicides,,planting cc,,,glyphosate,cc termination
+79,Colfax,northeast,Grower,1000,404.686,160,64.74976,16,Yes,soybean,,,,,,,,,,,
+80,,,,,,,,,No,soybean,prior to harvest,spread,mix,,,increased OM & weed suppression,planting cc,yes,earlysum,glyphosate,crop planting
+81,,,Grower,300,121.4058,300,121.4058,100,Yes,soybean,prior to harvest,aerial seeding,mix,2 weeks,herbicides,increased OM ,,yes,winter,"glyphosate & 2,4-d",cc termination
+82,,,,,,,,,No,soybean,after harvest,drill,cereal rye,,,increased OM & weed suppression,planting cc,yes,winter & summer,glyphosate,both
+83,Bulter,Southeast,Grower,900,364.2174,300,121.4058,33.3,Yes,soybean,prior to harvest,aerial seeding,mix,,,soil tilth,planting cc,yes,summer,"glyphosate & 2,4-d",crop planting

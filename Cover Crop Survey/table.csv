@@ -1,0 +1,19 @@
+,Soybean,Field Corn,Seed Corn
+,,%,
+prior crop harvest,27,27,85
+after crop harvest,73,73,15
+n,56,59,13
+interseed,0,8,77
+aerial,28,26,15
+drill,72,66,8
+n,53,61,13
+cereal rye,43,47,0
+multiple species mix,57,53,100
+n,47,62,13
+two weeks,46,73,100
+one week,26,12,0
+at planting,28,15,0
+n,35,40,7
+herbicides,96,95,100
+non-herbicides,4,5,0
+n,46,55,11

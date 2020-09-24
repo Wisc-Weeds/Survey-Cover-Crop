@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Cover_crop_survey_in_Nebraska.aux
+The style file: mdpi.bst
+Database file #1: cover.bib.bib
+You've used 56 entries,
+            2795 wiz_defined-function locations,
+            865 strings with 15702 characters,
+and the built_in function-call counts, 21977 in all, are:
+= -- 1752
+> -- 1386
+< -- 20
++ -- 523
+- -- 410
+* -- 2122
+:= -- 3594
+add.period$ -- 170
+call.type$ -- 56
+change.case$ -- 57
+chr.to.int$ -- 55
+cite$ -- 56
+duplicate$ -- 942
+empty$ -- 1784
+format.name$ -- 488
+if$ -- 4542
+int.to.chr$ -- 2
+int.to.str$ -- 56
+missing$ -- 51
+newline$ -- 286
+num.names$ -- 168
+pop$ -- 307
+preamble$ -- 0
+purify$ -- 56
+quote$ -- 0
+skip$ -- 492
+stack$ -- 0
+substring$ -- 1131
+swap$ -- 231
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 392
+warning$ -- 0
+while$ -- 165
+width$ -- 0
+write$ -- 680
